@@ -46,7 +46,4 @@ class CustomEnchantsIds
     //BOOTS
     const GEARS = 500;
     const SPRINGS = 501;
-
-    //COMPASS
-    const RADAR = 700;
 }
