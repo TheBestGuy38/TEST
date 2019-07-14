@@ -49,5 +49,4 @@ class CustomEnchantsIds
 
     //COMPASS
     const RADAR = 700;
-
 }
