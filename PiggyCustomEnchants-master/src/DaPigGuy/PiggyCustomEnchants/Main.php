@@ -186,13 +186,6 @@ class Main extends PluginBase
         CustomEnchantsIds::WITHER => ["Wither", "Weapons", "Damage", "Uncommon", 5, "Gives enemies wither"],
     ];
 
-    /** @var array */
-    public $incompatibilities = [
-        CustomEnchantsIds::GROW => [CustomEnchantsIds::SHRINK],
-        CustomEnchantsIds::PORKIFIED => [CustomEnchantsIds::BLAZE, CustomEnchantsIds::WITHERSKULL],
-        CustomEnchantsIds::VOLLEY => [CustomEnchantsIds::GRAPPLING]
-    ];
-
     public function onEnable()
     {
         if (!$this->isSpoon()) {
